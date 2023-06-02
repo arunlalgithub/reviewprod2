@@ -57,8 +57,7 @@ app.use(
 
 app.use("/", router);
 
- console.log('sdfdfsfdf')
-const server = app.listen(process.env.port, function (req, res) {
+const server = app.listen(9000, function (req, res) {
   console.log(`Server is running on Port: ${process.env.port}`);
 });
 
