@@ -61,4 +61,4 @@ const server = app.listen(9000, function (req, res) {
   console.log(`Server is running on Port: ${process.env.port}`);
 });
 
-module.exports = server;
+module.exports = app;
